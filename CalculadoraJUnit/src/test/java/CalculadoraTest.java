@@ -1,5 +1,4 @@
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculadoraTest {
@@ -19,14 +18,14 @@ public class CalculadoraTest {
         assertEquals(-8, calc.subtrair(-5, 3));
         assertEquals(0, calc.subtrair(0, 0));
     }
-//
-//    @Test
-//    void testMultiplicar() {
-//        assertEquals(21, calc.multiplicar(7, 3));
-//        assertEquals(-15, calc.multiplicar(-5, 3));
-//        assertEquals(0, calc.multiplicar(0, 5));
-//    }
-//
+
+    @Test
+    void testMultiplicar() {
+        assertEquals(21, calc.multiplicar(7, 3));
+        assertEquals(-15, calc.multiplicar(-5, 3));
+        assertEquals(0, calc.multiplicar(0, 5));
+    }
+
 //    @Test
 //    void testDividir() {
 //        assertEquals(2, calc.dividir(6, 3));
