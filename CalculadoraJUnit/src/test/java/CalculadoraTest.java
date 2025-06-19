@@ -26,10 +26,10 @@ public class CalculadoraTest {
         assertEquals(0, calc.multiplicar(0, 5));
     }
 
-//    @Test
-//    void testDividir() {
-//        assertEquals(2, calc.dividir(6, 3));
-//        assertEquals(-2, calc.dividir(-6, 3));
-//        assertThrows(IllegalArgumentException.class, () -> calc.dividir(5, 0));
-//    }
+    @Test
+    void testDividir() {
+        assertEquals(2, calc.dividir(6, 3));
+        assertEquals(-2, calc.dividir(-6, 3));
+        assertThrows(IllegalArgumentException.class, () -> calc.dividir(5, 0));
+    }
 }
